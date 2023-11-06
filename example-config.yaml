@@ -15,8 +15,9 @@ datasets:
 - name: test-dataset
   path: tests/data/datasets/test-etopo1-resampled-1deg/
 
+
 # Example config for 90 metre SRTM.
-# - name: srtm90m
-#   path: data/srtm-90m-nasa-v3.0/
+- name: srtm30m
+  path: data/srtm30m/
 #   filename_epsg: 4326  # This is the default value.
 #   filename_tile_size: 1  # This is the default value.
